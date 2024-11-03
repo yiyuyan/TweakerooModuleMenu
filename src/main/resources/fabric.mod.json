@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tmm",
+  "version": "${version}",
+  "name": "TweakerooModuleMenu",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/TweakerooModuleMenu"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.tmm.TweakerooModuleMenu"
+    ]
+  },
+  "mixins": [
+    "tmm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
